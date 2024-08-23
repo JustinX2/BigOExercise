@@ -1,0 +1,41 @@
+Simplify the following big O expressions as much as possible:
+
+O(n + 10) = O(n)
+O(100 * n) = O(n)
+O(25)=O(1)
+O(n^2 + n^3)=O(n^3)
+O(n + n + n + n)=O(n)
+O(1000 * log(n) + n)=O(n)
+O(1000 * n * log(n) + n)=O(nlogn)
+O(2^n + n^2)=O(2^n)
+O(5 + 3 + 1)=O(1)
+O(n + n^(1/2) + n^2 + n * log(n)^10)=O(n^2)
+
+Calculating Time Complexity
+
+Function logUpTo(n):
+Time Complexity: O(n)
+Function logAtLeast10(n):
+Time Complexity: O(n)
+Function logAtMost10(n):
+Time Complexity: O(1)
+Function onlyElementsAtEvenIndex(array):
+Time Complexity: O(n)
+Function subtotals(array):
+Time Complexity: O(n^2)
+Function vowelCount(str):
+Time Complexity: O(n)
+
+Short Answer
+True. n is negligible for large n.
+True. n^2 * n = n^3.
+False. n^2 is the dominant term and grows faster than n.
+O(n).
+O(n).
+O(n).
+O(n log n) on average.
+O(n).
+O(1).
+O(n).
+O(1).
+O(n), where n is the number of properties in the object.
